@@ -26,14 +26,14 @@
 \usepackage{import}
 
 % personal data
-\name{My}{Name}
-\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
-\address{my address, line 1, line 2, line 3, postcode}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-\phone[mobile]{+44 12345 12345}                   % optional, remove / comment the line if not wanted
-\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+\name{Zachary}{Smith}
+%\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+%\address{my address, line 1, line 2, line 3, postcode}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{2157795141}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
-\email{myname@hotmail.co.uk}                               % optional, remove / comment the line if not wanted
-\homepage{www.myname.webs.com}                         % optional, remove / comment the line if not wanted
+\email{zack.smith@temple.edu}                               % optional, remove / comment the line if not wanted
+\homepage{https://github.com/ZacharyThomas}                         % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
@@ -54,24 +54,32 @@
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
+\vspace*{-15mm}
 
-\small{Undergraduate electrical and electronic engineer completing the final year of a master's degree. Passionate about science, with strong technical, business, and interpersonal skills for working in a team and successfully completing a project.}
+%\small{Undergraduate electrical and electronic engineer completing the final year of a master's degree. Passionate about science, with strong technical, business, and interpersonal skills for working in a team and successfully completing a project.}
 
-\section{Previous Employment}
+\section{Experience}
 
 \vspace{6pt}
 
 \begin{itemize}
 
-\item{\cventry{July 2013--August 2013}{Construction Site Operative}{Eurogold Groundworks and Civil Engineering}{Moston}{}{\vspace{3pt}I was responsible for the administrative duties and the tidiness and general order of the site. I worked in a safety-oriented manner, often working alongside construction plant and machinery. At the end of my work with the company my colleagues praised my work ethic.}}
+\item{\cventry{July 2015--Present}{Software Engineer}{Yodle}{New York}{}{\vspace{3pt}
+	\begin{itemize}
+    \item{ Created and presented talk/training on PostgreSQL to entire tech orginzation at Yodle. }
+    \item{ Spearheaded and completed upgrade of multiple client facing ElasticSearch clusters from v2.4 to v5.5 with zero downtime.  }
+	\item{ Architected and implemented real time data pipeline  to ingest customer's sales data. Used that data to get and display customer advertising return on investment metrics. Enriched that data and fed it into advertising bidding algorithm. }
+    \item{Designed and implemented real time data pipeline to migrate data from Postgres and Hbase to Elasticsearch using Storm and Kafka with complete reliability. }
+	\item{ Implemented features and performance improvements in a Spring microservice which queries and transforms business analytics data for franchises with thousands of locations. }
+    \end{itemize}
+}}
 
 \vspace{6pt}
 
-\item{\cventry{2009--2011}{Waiter, Catering and Banqueting}{Lavender Best Western Park Hall Hotel}{Charnock Richard}{}{\vspace{3pt}I worked for three years as a team leader providing silver service at weddings, stag/hen nights, and business conferences. I was often trusted with other jobs such as setting up conference rooms, moving beds around the hotel, and guiding big groups of customers to their rooms. As a team leader I would delegate tasks to a team of about 5 people, often new staff who needed training, and lead the group to service. During this time I worked in a highly professional manner and was focused to provide excellent customer service, even during high stress functions and events.}}
-
-\vspace{6pt}
-
-\item{\cventry{January 2008}{Assistant Electrician}{Ryan Electricals}{Southport}{}{\vspace{3pt}I spent a week working as an assistant electrician as part of my high school work experience. My roles included wiring plugs, tidying, and assisting with household electrical repairs and fittings.}}
+\item{\cventry{2014-2015}{Research Assistant}{Temple University}{Philadelphia}{}{\vspace{3pt}\begin{itemize}
+    \item{ Maintained Django web app responsible for managing and administering students' laboratory assignments  }
+    \item{ Developed algorithm in Python to determine the netlist of a circuit from a circuit simulator using computer vision. }
+    \end{itemize}}}
 
 \end{itemize}
 
@@ -85,102 +93,32 @@
 
 \begin{itemize}
 
-\item{\cventry{2011--2015}{Meng (Hons) Electrical and Electronic Engineering }{Lancaster University}{Lancaster}{\textit{Predicted First Class}}{}}
-
-\item{\cventry{2009--2011}{A levels}{Runshaw College}{Leyland}{\textit{ICT (A) Physics (B) Maths (B)}}{}}  % arguments 3 to 6 can be left empty
-
-\item{\cventry{2002--2009}{11 GCSEs}{Southlands High School}{Chorley}{\textit{A* to B Including Maths and English}}{}}
+\item{\cventry{2011--2015}{BS in Electrical Engineering}{Temple University}{Philadelphia}{\textit{Cumulative GPA 3.61}}{}}
 
 \end{itemize}
 
 \vspace{2pt}
 
-\subsection{Notable Projects}
-
-\vspace{5pt}
-
-\begin{itemize}
-
-\item{\textbf{Masters Project (Ongoing):} \textit{'Development of an Intelligent Humanoid Robot'}
-
-\vspace{3pt}
-
-\small{I am part of a team developing a 5ft autonomous humanoid robot. This ambitious project requires strong team-working skills and high technical ability. I work well as part of the team, contributing in group discussions and taking initiative to set myself tasks when the next stage of the project is not clear. Given the role of electronics supervisor I am responsible for setting goals and ensuring all the electronic system designs are realised on time and meet the specifications of the project.}}
-
-\newpage
-
-\item{\textbf{3rd year individual project:} \textit{'Artificial Neural Network Approach to Source Localisation in Radiation Portal Monitoring'}
-
-\vspace{3pt}
-
-\small{This challenging project took place over the entirety of my third year. It required excellent planning and organisational skills, and the ability to teach myself an entirely new and complex subject. The project was a success, with the system being able to localise a radioactive source down to $ 3 cm$ within a $ 600 m^3$ sensor array. This project has been suggested for publication by my supervisor.}}
-
-\vspace{6pt}
-
-\item{\textbf{Industrial Project with Leyland Motors Ltd:}\textit{'Development of a Facility to Ensure the Achievement of Torque Parameters for a Specific Axle Configuration'}
-
-\vspace{3pt}
-
-\small{In the 3rd year of my course I spent a week completing an industrial project for Leyland Motors. I worked with a team operating as consultants for a particular problem the company was having. During this project I was working in a professional environment, and co-operating with various managers and engineers to create a design that met the requirements of the problem.}}
-
-\end{itemize}
-
-\section{Technical and Personal skills}
+\section{Technical skills}
 
 \vspace{6pt}
 
 \begin{itemize}
 
-\item \textbf{Programming Languages:} Proficient in: C, C++, Python, Matlab, Arduino, TeX \\ Also basic ability with: Assembly, VBA, VHDL.
+\item \textbf{Programming Languages:} Java, Python 
+\\ Familiarity with: Scala, Javascript, Go, Clojure.
 
 \vspace{6pt}
 
-\item \textbf{Industry Software Skills:} SolidWorks (Advanced), Matlab (Advanced), Ansys (Intermediate),  LTspice (Intermediate), Most MS Office products including MS project and MS access (Advanced).
+\item \textbf{Technologies/Concepts:} Storm, Kafka, Thrift Microservices, Mesos, Marthon, Docker, ETL, Ansible, data pipelines 
 
 \vspace{6pt}
 
-\item \textbf{General Business Skills:} Good presentation skills, Works well in a team.
+\item \textbf{Datastores:} PostgreSQL, Elasticsearch, Redis, Hbase, Zookeeper
 
 \vspace{6pt}
-
-\item \textbf{Other:} Good soldering and spot welding skills, Can write well organised and structured reports.
 
 \end{itemize}
-
-\section{Interests and extra-curricular activity}
-
-\vspace{6pt}
-
-\begin{itemize}
-
-\item{I was a "fresher representative" in my 2nd and 3rd years of university, this required me to guide, look after, and ensure that a particular flat of first years have a good time in their first week, and feel consoled in what for most of them is there first time living away from home. We were responsible for the safety and wellbeing of the group of first years during the first week, and during this time I made good friends with all of them.}
-
-\vspace{6pt}
-
-\item{I am a member of a number of university societies. I was also the vice president and co-founder of the flash mob society. My roles in this included recruiting members, in which during "fresher's fair" we enlisted over 200 new members. This was regarded as very successful, considering other societies averaged around 50. I also appeared in an interview on the university television station, set up a society bank account, and helped organise the events. One of these events was featured in the local newspaper.}
-
-\vspace{6pt}
-
-\item{I am also an avid hiker, having completed the national 3 peaks challenge last summer. Other interest include guitar, which I am self-taught, and home brewing.}
-
-\end{itemize}
-
-\section{References}
-
-\vspace{6pt}
- 
-\begin{itemize}
-
-\item{Up to 4 references available on request}
-
-\end{itemize}
-
-% Publications from a BibTeX file without multibib
-%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
-%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
 
 % Publications from a BibTeX file using the multibib package
 %\section{Publications}
